@@ -18,13 +18,14 @@
 
 // Select camera model
 //#define CAMERA_MODEL_WROVER_KIT
-#define CAMERA_MODEL_ESP_EYE
+//#define CAMERA_MODEL_ESP_EYE
 //#define CAMERA_MODEL_M5STACK_PSRAM
 //#define CAMERA_MODEL_M5STACK_WIDE
-//#define CAMERA_MODEL_AI_THINKER
+#define CAMERA_MODEL_AI_THINKER
 
 #include "camera_pins.h"
-
+#define SSID1 "M.Fouz"
+#define PWD1 "shakir03"
 /*
 Next one is an include with wifi credentials.
 This is what you need to do:
@@ -37,7 +38,7 @@ This is what you need to do:
 
 Should work then
 */
-#include "home_wifi_multi.h"
+//#include "home_wifi_multi.h"
 
 OV2640 cam;
 
